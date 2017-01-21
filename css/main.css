@@ -51,10 +51,10 @@ html {
   transition: all .5s linear;
 }
 
-svg:hover #left-ear{
+svg:hover #left-ear {
   transform: translate(0, -15px);
 }
 
-svg:hover #right-ear{
+svg:hover #right-ear {
   transform: translate(0, -15px);
 }
