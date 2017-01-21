@@ -7,11 +7,11 @@ html {
 }
 
 #left-eye {
-  animation: lefteye 3s infinite linear;
+  animation: lefteye .5s infinite linear alternate;
 }
 
 #right-eye {
-  animation: righteye 3s infinite linear;
+  animation: righteye .5s infinite linear alternate;
 }
 
 @keyframes lefteye {
@@ -48,7 +48,7 @@ html {
 
 #left-ear #right-ear {
   transform: translate(0, 10px);
-  transition: all .5s linear;
+  transition: all 3s linear;
 }
 
 svg:hover #left-ear {
