@@ -47,13 +47,14 @@ html {
 }
 
 #left-ear #right-ear {
-  transform: translate(0, 0px);
+  transform: translate(0, 10px);
+  transition: all .5s linear;
 }
 
-#left-ear:hover {
+svg:hover #left-ear{
   transform: translate(0, -15px);
 }
 
-#right-ear:hover {
+svg:hover #right-ear{
   transform: translate(0, -15px);
 }
